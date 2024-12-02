@@ -21,7 +21,7 @@ export function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-2xl font-bold">
-            <img src="../src/images/Alex.png" className='h-14'></img>
+            <img src="/images/Alex.png" className='h-14'></img>
           </a>
 
           <div className="hidden md:flex items-center space-x-8">

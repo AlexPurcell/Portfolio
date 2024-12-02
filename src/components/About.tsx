@@ -16,7 +16,7 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
-                src="../src/images/alex.jpg"
+                src="/images/alex.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

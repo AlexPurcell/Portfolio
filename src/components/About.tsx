@@ -1,5 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { motion } from 'framer-motion';
+import Alex from '../images/alex.jpg';
 
 export function About() {
   return (
@@ -16,7 +17,7 @@ export function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
-                src="/images/alex.jpg"
+                src={Alex}
                 alt="Profile"
                 className="w-full h-full object-cover"
               />

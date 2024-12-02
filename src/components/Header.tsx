@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { useTheme } from './ThemeProvider';
+import Alex from '../images/Alex.png';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ export function Header() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-2xl font-bold">
-            <img src="/images/Alex.png" className='h-14'></img>
+            <img src={Alex} className='h-14'></img>
           </a>
 
           <div className="hidden md:flex items-center space-x-8">
